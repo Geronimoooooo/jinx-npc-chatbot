@@ -216,3 +216,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+<<<<<<< HEAD
+
+# Данные — не коммитим
+data/raw/
+
+# Окружение
+.venv/
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Generated predictions
+predictions.csv
+*.csv
+!data/raw/.gitkeep
+
+# Saved models (большие бинарные файлы)
+models/*.pkl
+!models/.gitkeep
